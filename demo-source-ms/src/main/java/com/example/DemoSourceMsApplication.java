@@ -23,7 +23,7 @@ public class DemoSourceMsApplication {
 	}
 
 	@Bean
-	@InboundChannelAdapter(value = Source.OUTPUT, poller = @Poller(fixedDelay = "1000", maxMessagesPerPoll = "1"))
+	@InboundChannelAdapter(channel = Source.OUTPUT, poller = @Poller(fixedDelay = "1000", maxMessagesPerPoll = "1"))
 	MessageSource<String> source() {
 		AtomicInteger counter = new AtomicInteger(1);
 		return () -> MessageBuilder.withPayload("Hello " + counter.getAndIncrement())
