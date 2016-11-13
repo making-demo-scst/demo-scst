@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-processor/demo-processor.iml" filepath="$PROJECT_DIR$/demo-processor/demo-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-processor-dlq/demo-processor-dlq.iml" filepath="$PROJECT_DIR$/demo-processor-dlq/demo-processor-dlq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-processor-rx/demo-processor-rx.iml" filepath="$PROJECT_DIR$/demo-processor-rx/demo-processor-rx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-processor-transformer/demo-processor-transformer.iml" filepath="$PROJECT_DIR$/demo-processor-transformer/demo-processor-transformer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demo-scst.iml" filepath="$PROJECT_DIR$/.idea/demo-scst.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-sink/demo-sink.iml" filepath="$PROJECT_DIR$/demo-sink/demo-sink.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-source/demo-source.iml" filepath="$PROJECT_DIR$/demo-source/demo-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-source-ch-adpt/demo-source-ch-adpt.iml" filepath="$PROJECT_DIR$/demo-source-ch-adpt/demo-source-ch-adpt.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-source-gw/demo-source-gw.iml" filepath="$PROJECT_DIR$/demo-source-gw/demo-source-gw.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-source-ms/demo-source-ms.iml" filepath="$PROJECT_DIR$/demo-source-ms/demo-source-ms.iml" />
     </modules>

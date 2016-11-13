@@ -22,17 +22,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="demo-processor" />
+        <module name="demo-processor-dlq" />
+        <module name="demo-processor-rx" />
+        <module name="demo-processor-transformer" />
         <module name="demo-sink" />
         <module name="demo-source" />
+        <module name="demo-source-ch-adpt" />
         <module name="demo-source-gw" />
         <module name="demo-source-ms" />
+        <module name="demo-source-ms-adpt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo-processor" target="1.8" />
+      <module name="demo-processor-dlq" target="1.8" />
+      <module name="demo-processor-rx" target="1.8" />
+      <module name="demo-processor-transformer" target="1.8" />
       <module name="demo-sink" target="1.8" />
+      <module name="demo-sink-rx" target="1.8" />
       <module name="demo-source" target="1.8" />
+      <module name="demo-source-ch-adpt" target="1.8" />
       <module name="demo-source-gw" target="1.8" />
       <module name="demo-source-ms" target="1.8" />
+      <module name="demo-source-ms-adpt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -18,6 +18,12 @@
         <option value="$PROJECT_DIR$/demo-source/pom.xml" />
         <option value="$PROJECT_DIR$/demo-source-gw/pom.xml" />
         <option value="$PROJECT_DIR$/demo-source-ms/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-source-ms-adpt/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-processor/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-source-ch-adpt/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-processor-transformer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-processor-dlq/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-processor-rx/pom.xml" />
       </list>
     </option>
   </component>
@@ -32,20 +38,4 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19236016" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
-  </component>
 </project>
